@@ -1,0 +1,73 @@
+.form__subtitle {
+    color: #343434;
+    font-size: 1.2rem;
+    font-weight: 300;
+    align-self: flex-start;
+    margin: 20px 0;
+}
+
+.form__btn {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #DEB887;
+    background-color: #FFDEAD;
+    color: #343434;
+}
+
+.form-group-checkbox label {
+    display: inline;
+}
+
+
+.form-group-checkbox input {
+    display: inline;
+    margin-right: 10px;
+}
+
+.form-group-checkbox {
+    margin-bottom: 15px;
+}
+
+.options {
+    width: 100%;
+}
+
+.form{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group-radio input {
+    margin-right: 10px;
+}
+
+
+.checkbox__input{
+    width: 65%;
+}
+
+.flavors-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.checkbox__input {
+    display: flex;
+    align-items: center;
+}
+
+.form-group-checkbox:hover .label__flavor, .ingredients {
+    display: none;
+}
+
+.form-group-checkbox:hover .ingredients {
+    display: block;
+}
+
+@media (max-width:1000px) {
+    .form-group-checkbox {
+        width: 100%;
+    }
+}

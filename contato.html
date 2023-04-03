@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da Pizzaria">
+    <meta name="keywords" content="Pizza, Pedido online">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+
+    <title>Pizzaria</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/img/logotipo.png"></a>
+        <nav class="navbar">
+            <button class="navbar__nav-button">&#9776;</button>
+            <ul class="navbar__nav-list">
+                <li class="nav-list__item"><a href="index.html">Home</a></li>
+                <li class="nav-list__item"><a href="precos.html">Preços</a></li>
+                <li class="nav-list__item"><a href="pedido.html">Pedido</a></li>
+                <li class="nav-list__item"><a href="contato.html">Contato</a></li>
+				<li class="nav-list__item"><a href="jogo.apk"Download>Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <!-- conteúdo específico -->
+            <h2 class="title">Contato</h2>
+
+            <form class="form">
+
+
+                <div class="form-group">
+                    <label for="name" class="form-group__label">Nome completo</label>
+                    <input type="text" id="name" name="name" required autocomplete="off" autofocus
+                        class="form-group__input" placeholder="Insira seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-group__label">Email</label>
+                    <input type="email" id="email" name="name" required autocomplete="off" class="form-group__input"
+                        placeholder="Insira seu email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" class="form-group__label">Telefone</label>
+                    <input type="tel" id="phone" name="phone" required autocomplete="off" class="form-group__input"
+                        placeholder="(99) 99999-9999">
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-group__label">Mensagem</label>
+                    <textarea class="form-group__input" id="message" name="message" rows="3"
+                        placeholder="Insira sua mensagem"></textarea>
+                </div>
+                <button class="form__btn btn-red" type="submit">Enviar</button>
+            </form>
+
+            
+                   
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+   <footer>
+        <div class="rodapé">
+            <div class="contato">
+                <ul class="telefone">
+                    <li><img class="rodapé-icon" src="assets/img/whatsapp.png" alt="Logo do Whatsapp">(11) 98123-7120</li>
+                    <li><img class="rodapé-icon" src="assets/img/whatsapp.png" alt="Logo do Whatsapp">(11) 91234-5678</li>
+                    <li><img class="rodapé-icon" src="assets/img/whatsapp.png" alt="Logo do Whatsapp">(11) 91234-5678</li>
+                </ul>
+            </div>
+
+             <div class="endereço">
+                <p>R. Ulisses Cruz, nº 42</p>
+                <p>Belenzinho, São Paulo-SP, 03077-000</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

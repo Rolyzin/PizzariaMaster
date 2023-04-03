@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da Pizzaria">
+    <meta name="keywords" content="Pizza, Pedido online">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/pedido.css">
+
+    <title>Pizzaria</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/img/logotipo.png"></a>
+        <nav class="navbar">
+            <button class="navbar__nav-button">&#9776;</button>
+            <ul class="navbar__nav-list">
+                <li class="nav-list__item"><a href="index.html">Home</a></li>
+                <li class="nav-list__item"><a href="precos.html">Preços</a></li>
+                <li class="nav-list__item"><a href="pedido.html">Pedido</a></li>
+                <li class="nav-list__item"><a href="contato.html">Contato</a></li>
+				<li class="nav-list__item"><a href="jogo.apk"Download>Download</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <h2 class="title">Faça seu pedido</h2>
+            <form class="form">
+                <div class="form-group">
+                    <label class="form-group__label" for="size">Selecione o sabor da pizza</label>
+                    <select name="size" id="size" class="form-group__input form-group__select">
+                        <option value="#">Selecione</option>
+                        <option value="#">Mussarela</option>
+                        <option value="#">Calabresa</option>
+                        <option value="#">Frango c/ Catupiry</option>
+                        <option value="#">Quatro Queijos</option>
+                        <option value="#">Brigadeiro</option>
+                        <option value="#">Prestigio</option>
+                        <option value="#">Chocolate c/ morango</option>
+                        <option value="#">floresta negra</option>
+                    </select>
+                </div>
+                <di
+                    <div class="form-group form-group-radio">
+                        <h3 class="form__subtitle">Selecione o tipo de borda</h3>
+                        <label><input type="radio" name="edge" value="" checked>Sem borda</label><br>
+                        <label><input type="radio" name="edge" value="">Catupiry</label><br>
+                        <label><input type="radio" name="edge" value="">Cheddar</label><br>
+                        <label><input type="radio" name="edge" value="">Chocolate</label><br>
+                    </div>
+
+                </div>
+                <button class="form__btn btn-red" type="submit">Fazer pedido</button>
+            </form>
+        </main>
+
+    </div>
+
+    <footer>
+        <div class="rodapé">
+            <div class="contato">
+                <ul class="telefone">
+                   <li><img class="rodapé-icon" src="assets/img/whatsapp.png" alt="Logo do Whatsapp">(11) 98123-7120</li>
+                    <li><img class="rodapé-icon" src="assets/img/whatsapp.png" alt="Logo do Whatsapp">(11) 91234-5678</li>
+                    <li><img class="rodapé-icon" src="assets/img/whatsapp.png" alt="Logo do Whatsapp">(11) 91234-5678</li>
+                </ul>
+            </div>
+
+             <div class="endereço">
+                <p>R. Ulisses Cruz, nº 42</p>
+                <p>Belenzinho, São Paulo-SP, 03077-000</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/pedido.js"></script>
+</body>
+
+</html>
